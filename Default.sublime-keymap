@@ -1,18 +1,18 @@
 [
   {
-    "keys": ["ctrl+pagedown"],
+    "keys": ["primary+pagedown"],
     "command": "next_view_in_stack"
   },
   {
-    "keys": ["ctrl+pageup"],
+    "keys": ["primary+pageup"],
     "command": "prev_view_in_stack"
   },
   {
-    "keys": ["ctrl+tab"],
+    "keys": ["primary+tab"],
     "command": "next_view"
   },
   {
-    "keys": ["ctrl+shift+tab"],
+    "keys": ["primary+shift+tab"],
     "command": "prev_view"
   },
   {
@@ -28,7 +28,7 @@
     "command": "open_terminal_project_folder"
   },
   {
-    "keys": ["ctrl+shift+t"],
+    "keys": ["primary+shift+t"],
     "command": "reopen_last_file"
   }
 ]
