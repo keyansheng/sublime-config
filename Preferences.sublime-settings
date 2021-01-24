@@ -5,7 +5,7 @@
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Cascadia Code PL",
   "font_options": ["no_italic"],
-  "font_size": 13,
+  "font_size": 12,
   "ignored_packages": ["Vintage"],
   "line_padding_bottom": 1,
   "line_padding_top": 1,
