@@ -21,8 +21,7 @@ mv User User-backup
 git clone https://github.com/keyansheng/sublime-settings User
 cd User
 echo '#!/bin/bash
-prettier --write .
-git update-index --again' > .git/hooks/pre-commit
+prettier --check .' > .git/hooks/pre-commit
 pip install black
 npm install --global prettier
 ```
