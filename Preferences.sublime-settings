@@ -1,5 +1,6 @@
 {
   "color_scheme": "Packages/GitHub Theme/schemes/GitHub Light.sublime-color-scheme",
+  "default_line_ending": "unix",
   "detect_indentation": false,
   "enable_tab_scrolling": false,
   "ensure_newline_at_eof_on_save": true,
