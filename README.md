@@ -8,20 +8,21 @@
 
 ```bash
 # Linux
-cd ~/.config/sublime-text-3/Packages
+git clone https://github.com/keyansheng/sublime-settings ~/.config/sublime-text-3/Packages/User
+echo '#!/bin/bash
+prettier --check .' > ~/.config/sublime-text-3/Packages/User/.git/hooks/pre-commit
 
 # macOS
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+git clone https://github.com/keyansheng/sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+echo '#!/bin/bash
+prettier --check .' > ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/.git/hooks/pre-commit
 
 # Windows
-cd ~/AppData/Roaming/'Sublime Text 3'/Packages
-
-# all operating systems
-mv User User-backup
-git clone https://github.com/keyansheng/sublime-settings User
-cd User
+git clone https://github.com/keyansheng/sublime-settings ~/AppData/Roaming/'Sublime Text 3'/Packages/User
 echo '#!/bin/bash
-prettier --check .' > .git/hooks/pre-commit
+prettier --check .' > ~/AppData/Roaming/'Sublime Text 3'/Packages/User/.git/hooks/pre-commit
+
+# Install formatters
 pip install black
 npm install --global prettier
 ```
@@ -31,13 +32,13 @@ npm install --global prettier
 ```bash
 # Linux
 cd ~/.config/sublime-text-3/Packages/User
+git pull
 
 # macOS
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+git pull
 
 # Windows
 cd ~/AppData/Roaming/'Sublime Text 3'/Packages/User
-
-# all operating systems
 git pull
 ```
