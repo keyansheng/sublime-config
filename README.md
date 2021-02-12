@@ -8,17 +8,17 @@
 
 ```bash
 # Linux
-git clone https://github.com/keyansheng/sublime-settings $HOME/.config/sublime-text-3/Packages/User
+git clone https://github.com/keyansheng/sublime-config $HOME/.config/sublime-text-3/Packages/User
 echo '#!/bin/bash
 prettier --check .' > $HOME/.config/sublime-text-3/Packages/User/.git/hooks/pre-commit
 
 # macOS
-git clone https://github.com/keyansheng/sublime-settings "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+git clone https://github.com/keyansheng/sublime-config "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 echo '#!/bin/bash
 prettier --check .' > "$HOME/Library/Application Support/Sublime Text 3/Packages/User/.git/hooks/pre-commit"
 
 # Windows
-git clone https://github.com/keyansheng/sublime-settings "$HOME/AppData/Roaming/Sublime Text 3/Packages/User"
+git clone https://github.com/keyansheng/sublime-config "$HOME/AppData/Roaming/Sublime Text 3/Packages/User"
 echo '#!/bin/bash
 prettier --check .' > "$HOME/AppData/Roaming/Sublime Text 3/Packages/User/.git/hooks/pre-commit"
 
