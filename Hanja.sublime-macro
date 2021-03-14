@@ -1,7 +1,11 @@
 [
   { "args": { "characters": "<ruby>" }, "command": "insert" },
-  { "args": { "by": "characters", "forward": true }, "command": "move" },
+  { "args": { "by": "word_ends", "forward": true }, "command": "move" },
+  { "args": { "to": "brackets" }, "command": "expand_selection" },
+  { "args": null, "command": "cut" },
+  { "args": null, "command": "right_delete" },
+  { "args": null, "command": "left_delete" },
   { "args": { "characters": "<rt>" }, "command": "insert" },
-  { "args": { "by": "characters", "forward": true }, "command": "move" },
+  { "args": null, "command": "paste" },
   { "args": { "characters": "</ruby>" }, "command": "insert" }
 ]
