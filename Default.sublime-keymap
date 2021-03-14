@@ -34,6 +34,6 @@
   {
     "keys": ["alt+shift+h"],
     "command": "run_macro_file",
-    "args": { "file": "Packages/User/Hanja.sublime-macro" }
+    "args": { "file": "Packages/User/RubyCharacters.sublime-macro" }
   }
 ]
