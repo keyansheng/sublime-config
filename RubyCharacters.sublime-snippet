@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<ruby>${1:word}<rt>${2:pronunciation}</ruby>]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
