@@ -1,0 +1,22 @@
+[
+  { "args": { "characters": "<ruby><rt>" }, "command": "insert" },
+  { "args": { "by": "characters", "forward": true }, "command": "move" },
+  { "args": { "characters": "</rt></ruby>" }, "command": "insert" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" },
+  { "args": { "by": "characters", "forward": false }, "command": "move" }
+]

@@ -30,5 +30,10 @@
   {
     "keys": ["primary+shift+t"],
     "command": "reopen_last_file"
+  },
+  {
+    "keys": ["alt+shift+h"],
+    "command": "run_macro_file",
+    "args": { "file": "Packages/User/Hanja.sublime-macro" }
   }
 ]
