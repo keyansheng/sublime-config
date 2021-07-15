@@ -31,14 +31,11 @@ npm install --global prettier
 
 ```bash
 # Linux
-cd $HOME/.config/sublime-text-3/Packages/User
-git pull
+git -C $HOME/.config/sublime-text-3/Packages/User pull
 
 # macOS
-cd "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-git pull
+git -C "$HOME/Library/Application Support/Sublime Text 3/Packages/User" pull
 
 # Windows
-cd "$HOME/AppData/Roaming/Sublime Text 3/Packages/User"
-git pull
+git -C "$HOME/AppData/Roaming/Sublime Text 3/Packages/User" pull
 ```
