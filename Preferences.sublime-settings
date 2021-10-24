@@ -7,7 +7,7 @@
   "font_face": "Cascadia Code PL",
   "font_options": ["no_italic"],
   "font_size": 12,
-  "ignored_packages": ["Vintage"],
+  "ignored_packages": [],
   "line_padding_bottom": 1,
   "line_padding_top": 1,
   "rulers": [80, 120],
@@ -18,5 +18,6 @@
   "theme": "Adaptive.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
+  "vintage_start_in_command_mode": true,
   "word_wrap": "true"
 }
